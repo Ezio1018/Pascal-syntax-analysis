@@ -1,0 +1,10 @@
+program example;
+var n,a:integer;
+begin
+read(n,a);
+if n+1>a then
+begin
+n:=a-1;
+write(n+a);
+end;
+end.
